@@ -1,0 +1,7 @@
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url(/src/assets/img/hero-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 18vh;
+    background-attachment: fixed;
+}
