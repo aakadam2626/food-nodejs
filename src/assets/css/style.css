@@ -249,9 +249,23 @@ header{
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
+.main-nav li a:active,
+.main-nav li button:hover,
+.main-nav li button:active {
     border-bottom: 2px solid #e67e22;
 }
+
+.main-nav li button{
+    background-color: transparent;
+    border-color: transparent;
+    padding: 8px 0; 
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+}
+
 
 /* Mobile Navigation */
 .mobile-nav-icon {
@@ -508,6 +522,7 @@ cite img {
 }
 
 input[type=text],
+input[type=password],
 input[type=email],
 select,
 textarea {
@@ -623,3 +638,6 @@ footer p {
     opacity: 1;
 }
 
+mat-spinner{
+    margin: auto;
+}

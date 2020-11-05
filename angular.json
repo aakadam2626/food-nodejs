@@ -24,7 +24,6 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
               "src/assets/css/animate.css",
               "src/assets/css/grid.css",
               "src/assets/css/ionicons.min.css",
@@ -101,6 +100,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -132,6 +132,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "omni-food"
 }
